@@ -1,1 +1,10 @@
-[{"city":"Málaga","value":"351,7"},{"city":"Torrox","value":"105,9"}]
+[
+  {
+    "city": "Málaga",
+    "value": "351,7"
+  },
+  {
+    "city": "Torrox",
+    "value": "105,9"
+  }
+]
