@@ -1,6 +1,9 @@
 on:
   schedule:
-    - cron:  '0/15 * * * *' 
+    - cron:  '*/30 * * * *'
+  push:
+    branches:
+      - main
 name: Scrape Data
 jobs:
   build:
