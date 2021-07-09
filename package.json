@@ -1,0 +1,24 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kesselborn/myapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kesselborn/myapi/issues"
+  },
+  "homepage": "https://github.com/kesselborn/myapi#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}

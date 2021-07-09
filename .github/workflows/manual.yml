@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '0 * * * *' # 8am daily. Ref https://crontab.guru/examples.html
+    - cron:  '0/15 * * * *' 
 name: Scrape Data
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
     - name: Build
       run: npm install # any dependencies you may need
     - name: Scrape
-      run: npm run action # actually run your npm script for scraping
+      run: npm run scrape # actually run your npm script for scraping
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
     - uses: mikeal/publish-to-github-action@master
